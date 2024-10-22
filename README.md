@@ -30,3 +30,23 @@ Make sure you have the following installed on your machine:
 
 ```bash
 git clone https://github.com/yarynaZ/dashboard.git
+```
+## Docker Instructions
+
+You can run the application using Docker, which will allow you to containerize the app and deploy it consistently across different environments.
+
+### Step 1: Build  the Docker Image
+
+```bash
+docker build -t company-dashboard .
+```
+
+### Step 2: Run the Docker Container
+
+```bash
+docker run -p 3000:3000 company-dashboard
+```
+
+
+
+
